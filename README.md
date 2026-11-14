@@ -27,7 +27,7 @@ morphology — and on keeping human judgments consistent, traceable, and reprodu
 - **[phonics-annotation-toolkit](https://github.com/hjamiewee/phonics-annotation-toolkit)**: 파닉스 지문을 소리 축(발음·GPC)과 뜻 축(품사·뜻)으로 나눠 주석하고, 레슨 타깃 판정과 음성·이미지 에셋 목록, 해독 가능성 분석까지 만드는 파이프라인
 - **[영어 재료 전치사 분류](https://github.com/hjamiewee/MA_thesis)**: 석사 논문에서 출발한 연구. `made of / from / with`를 COCA 문장으로 학습한 DistilBERT로 분류해, 무학습 GPT-4o(정확도 39%, `from` 0%)보다 높은 Macro-F1 0.575를 얻음
 
-**도구**: Python · pandas · pytest · Google Sheets API · Git
+**도구**: Python · pandas · pytest · PyTorch · Hugging Face Transformers · scikit-learn · Google Sheets API · Git
 
 </details>
 
@@ -47,6 +47,6 @@ morphology — and on keeping human judgments consistent, traceable, and reprodu
 
 ## Tools
 
-Python · pandas · pytest · Google Sheets API · Git
+Python · pandas · pytest · PyTorch · Hugging Face Transformers · scikit-learn · Google Sheets API · Git
 
 <!-- Contact: LinkedIn 은 나중에 연결 (## Contact 절을 여기에 추가) -->
