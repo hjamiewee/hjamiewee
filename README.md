@@ -25,7 +25,7 @@ morphology — and on keeping human judgments consistent, traceable, and reprodu
 
 **대표 프로젝트**
 - **[phonics-annotation-toolkit](https://github.com/hjamiewee/phonics-annotation-toolkit)**: 파닉스 지문을 소리 축(발음·GPC)과 뜻 축(품사·뜻)으로 나눠 주석하고, 레슨 타깃 판정과 음성·이미지 에셋 목록, 해독 가능성 분석까지 만드는 파이프라인
-- **영어 재료 전치사 분류** *(정리 중)*: `made of / from / with`를 COCA 코퍼스 데이터와 언어 모델 fine-tuning으로 분류한 석사 논문 연구
+- **[영어 재료 전치사 분류](https://github.com/hjamiewee/MA_thesis)**: 석사 논문에서 출발한 연구. `made of / from / with`를 COCA 문장으로 학습한 DistilBERT로 분류해, 무학습 GPT-4o(정확도 39%, `from` 0%)보다 높은 Macro-F1 0.575를 얻음
 
 **도구**: Python · pandas · pytest · Google Sheets API · Git
 
@@ -43,7 +43,7 @@ morphology — and on keeping human judgments consistent, traceable, and reprodu
 | Project | What it shows |
 |---|---|
 | **[phonics-annotation-toolkit](https://github.com/hjamiewee/phonics-annotation-toolkit)** | Annotates phonics passages on a sound axis (pronunciation, GPCs) and a meaning axis (POS, senses); judges lesson targets, builds audio and image asset lists, and measures decodability. Bilingual docs (EN/KO). |
-| **Material prepositions** *(in preparation)* | Master's thesis research: classifying `made of / from / with` using COCA corpus data and fine-tuned language models. |
+| **[Material prepositions](https://github.com/hjamiewee/MA_thesis)** | Grows out of my master's thesis: classifies `made of / from / with` with DistilBERT fine-tuned on COCA sentences, reaching Macro-F1 0.575 where zero-shot GPT-4o scored 39% accuracy and 0% on `from`. |
 
 ## Tools
 
